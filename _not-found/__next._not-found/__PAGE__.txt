@@ -1,0 +1,31 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/0ejizgy-ebrob.js"
+4:"/_next/static/chunks/1267rhjmux_n3.js"
+5:"/_next/static/chunks/16sw8bbz01xp5.js"
+6:"/_next/static/chunks/3xrgo_sew8iut.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/40okvvrz53q6h.js"
+e:I[27930,["$3","$4","$5","$6","$d"],"Button"]
+f:I[22016,["$3","$4","$5","$6","$d"],""]
+10:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+11:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[97367,["$3","$4","$5","$6"],"$14"]
+16:"MetadataBoundary"
+17:I[97367,["$3","$4","$5","$6"],"$16"]
+18:I[27201,["$3","$4","$5","$6"],"IconMark"]
+a:X
+a:C
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","section",null,{"className":"mx-auto w-full max-w-2xl mt-5 px-4 md:px-6 lg:px-0","children":["$","section",null,{"className":"flex flex-1 flex-col items-center justify-center px-5 py-30 text-center","children":[["$","p",null,{"className":"text-foreground text-7xl font-bold tracking-tight sm:text-8xl","children":"404"}],["$","h1",null,{"className":"text-foreground mt-2 text-lg font-semibold sm:text-xl","children":"Page not found"}],["$","p",null,{"className":"text-muted-foreground mt-3 max-w-md text-sm leading-6 sm:text-base","children":"The page you're looking for doesn't exist or has been moved."}],["$","div",null,{"className":"mt-7 flex items-center gap-3","children":[["$","$Le",null,{"data-slot":"button","className":"group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 bg-primary text-primary-foreground hover:bg-primary/80 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2","children":["$","$Lf",null,{"href":"/","children":"Home"}]}],["$","$Le",null,{"data-slot":"button","className":"group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 bg-secondary text-secondary-foreground hover:bg-[color-mix(in_oklch,var(--secondary),var(--foreground)_5%)] aria-expanded:bg-secondary aria-expanded:text-secondary-foreground h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2","children":["$","$Lf",null,{"href":"/projects","children":"Projects"}]}]]}]]}]}],[["$","script","script-0",{"src":"/_next/static/chunks/40okvvrz53q6h.js","async":true}]],["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"p":"$@13","v":null,"s":"$b"}}]]
+1:[["children",{"s":"/_not-found","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Vivek Reddy - AI and ML Engineer"}],["$","meta","1",{"name":"description","content":"AI/ML Engineer and IIT Guwahati graduate building document intelligence, RAG, and real-time speech applications."}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","link","3",{"rel":"canonical","href":"https://v1vekreddy.github.io/"}],["$","meta","4",{"property":"og:title","content":"Vivek Reddy - AI and ML Engineer"}],["$","meta","5",{"property":"og:description","content":"AI/ML Engineer and IIT Guwahati graduate building document intelligence, RAG, and real-time speech applications."}],["$","meta","6",{"property":"og:url","content":"https://v1vekreddy.github.io/"}],["$","meta","7",{"property":"og:site_name","content":"Vivek Reddy"}],["$","meta","8",{"property":"og:image","content":"https://v1vekreddy.github.io/assets/social-preview.png"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"Vivek Reddy Portfolio Preview"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:title","content":"Vivek Reddy - AI and ML Engineer"}],["$","meta","15",{"name":"twitter:description","content":"AI/ML Engineer and IIT Guwahati graduate building document intelligence, RAG, and real-time speech applications."}],["$","meta","16",{"name":"twitter:image","content":"https://v1vekreddy.github.io/assets/social-preview.png"}],["$","link","17",{"rel":"icon","href":"data:,"}],["$","$L18","18",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@19","v":null,"s":"$b"}},"a":"$@1a","u":"$@1b","b":"cHOKQ04UcoiV9lw3O5kF6"}
+12:null
+1b:true
+b:300
+b:C
+1a:0
+9:"$undefined"
+19:"$undefined"
+13:"$undefined"

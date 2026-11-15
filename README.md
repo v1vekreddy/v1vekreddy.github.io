@@ -1,10 +1,7 @@
-﻿# Vivek Reddy — Personal Portfolio
+# Vivek Reddy portfolio
 
-Personal website for Vivek Reddy, AI and ML Engineer and IIT Guwahati graduate.
+Published website: https://v1vekreddy.github.io/
 
-The site uses HTML, CSS, and JavaScript with saved light/dark preferences.
-The resume opens in Google Drive. Contact and social links are in the header.
+Editable Next.js source: https://github.com/v1vekreddy/v1vekreddy.github.io/tree/portfolio-v2
 
-Live website: https://v1vekreddy.github.io/
-
-GitHub Pages publishes the root of the gh-pages branch.
+This branch contains the generated static export for GitHub Pages.
