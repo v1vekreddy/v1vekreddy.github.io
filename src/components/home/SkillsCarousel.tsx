@@ -1,0 +1,35 @@
+"use client";
+
+import { mySkills } from "@/config/skills";
+
+import { Container } from "../common/Container";
+import { Heading } from "../common/Heading";
+
+const SkillsCarousel = () => {
+  const skills = mySkills;
+
+  return (
+    <Container>
+      <Heading as="h2">Tech Stack</Heading>
+
+      <div className="w-full py-4">
+        <div className="flex flex-wrap items-center gap-3">
+          {skills.map(({ name, icon: Icon }, index) => (
+            <div
+              key={`${name}-${index}`}
+              className="flex h-10 w-fit shrink-0 items-center gap-2 rounded-full border border-neutral-300 bg-neutral-100 px-4 text-sm font-medium whitespace-nowrap text-neutral-500 transition-transform duration-200 dark:border-neutral-200/10 dark:bg-neutral-900"
+            >
+              <span className="flex size-5 shrink-0 items-center justify-center [&>svg]:size-full">
+                <Icon />
+              </span>
+              <span>{name}</span>
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </Container>
+  );
+};
+
+export { SkillsCarousel };

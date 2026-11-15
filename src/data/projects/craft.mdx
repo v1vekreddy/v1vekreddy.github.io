@@ -1,0 +1,115 @@
+---
+title: "Craft - Universal Project Scaffolder CLI"
+shortTitle: "Craft"
+about: "Developer tooling"
+description: "A TypeScript CLI that scaffolds frontend, backend, and full-stack applications with configurable databases, authentication, UI libraries, and developer tools."
+image: "/projects/craft.png"
+stack: ["TypeScript", "Node.js", "Commander.js", "Inquirer", "Execa"]
+github: "https://github.com/igmoni/craft"
+live: "https://craftnix.vercel.app"
+timeline: "2026"
+role: "Founder & Developer"
+team: "Solo"
+status: "Working"
+isPublished: false
+date: "2026-10-12"
+---
+
+## Craft V2 — Stop Setting Up. Start Building.
+
+## Overview
+
+Craft is an open-source-style developer CLI built to eliminate repetitive project setup.
+
+V2 is a complete architectural rebuild, expanding Craft from a basic project scaffolder into a configurable project generation tool supporting frontend, backend, and full-stack frameworks.
+
+Through a single interactive or non-interactive workflow, developers can choose their framework, language, package manager, database, authentication provider, UI library, and development tools.
+
+Published on npm as `@igmoni/craft@2.0.0`.
+
+## Key Features
+
+- **8 Frameworks:** Scaffold Angular, Vue, React (Vite), NestJS, Express, Fastify, Hono, and Next.js projects.
+- **Language Selection:** TypeScript and JavaScript options where supported.
+- **Database Integration:** Configure PostgreSQL with Prisma or MongoDB with Mongoose.
+- **Authentication:** Integrate Better Auth, Auth.js, or Clerk on supported frameworks.
+- **UI Integration:** Configure Tailwind CSS v4 and shadcn/ui where supported.
+- **Developer Tools:** Set up ESLint, Prettier, Husky, and Commitlint.
+- **Package Managers:** Support npm, pnpm, yarn, and bun, subject to framework compatibility.
+- **Interactive & CLI Workflows:** Configure projects through prompts or command-line flags.
+- **Safe Generation:** Generate projects in staging directories before merging files into the target directory, with conflict protection and cleanup.
+
+## Tech Stack
+
+- **TypeScript & Node.js**
+- Commander.js
+- @inquirer/prompts
+- Execa
+- Tailwind CSS and framework-specific official scaffolding tools
+
+## Engineering Highlights
+
+- **Registry-Based Architecture:** Built a centralized framework registry to manage framework capabilities and compatible integrations.
+- **Modular Generator System:** Separated framework, database, authentication, UI, environment, and developer-tool generators.
+- **Official Scaffolding:** Integrated official framework creation tools instead of maintaining custom templates for every framework.
+- **Safe Generation Pipeline:** Implemented temporary staging directories, file conflict detection, safe merging, and cleanup.
+- **Command Orchestration:** Used Execa to execute external scaffolding tools and package-manager commands.
+- **Integration Compatibility:** Added framework-aware configuration and validation to prevent unsupported combinations.
+- **Reusable Architecture:** Designed generators and services to make future framework and integration support easier to maintain.
+
+## Validation & Results
+
+- Published `@igmoni/craft@2.0.0` on npm.
+- Successfully tested global installation and CLI execution using the packaged npm tarball.
+- Verified all 8 supported framework generators.
+- Passed 67 automated unit tests.
+- Passed TypeScript checks, formatting checks, and production build.
+- Ran generator integration tests covering framework generation, integrations, and applicable builds.
+- Verified the React + shadcn/ui generation workflow, including its build.
+
+## Key Learnings
+
+- Designing registry-driven and modular architectures.
+- Building framework-aware configuration systems.
+- Orchestrating external CLI tools and package managers.
+- Safe filesystem operations and staging workflows.
+- Writing automated tests for real project generation.
+- Managing compatibility across frameworks and integrations.
+- Packaging, validating, and publishing production npm CLI releases.
+
+## Installation & Usage
+
+Install Craft globally:
+
+```bash
+npm install -g @igmoni/craft
+```
+
+Create a project interactively:
+
+```bash
+craft init my-app
+```
+
+Create a Next.js project:
+
+```bash
+craft init my-app --framework next --ts
+```
+
+Create a React project with shadcn/ui:
+
+```bash
+craft init my-app --framework react --ts --shadcn --package-manager pnpm
+```
+
+Create an Express API with PostgreSQL:
+
+```bash
+craft init my-api --framework express --database postgres --ts
+```
+
+## Links
+
+- **npm:** [Click Here](https://www.npmjs.com/package/@igmoni/craft)
+- **GitHub:** [Click Here](https://github.com/igmoni/craft)
