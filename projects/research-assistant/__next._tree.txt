@@ -1,5 +1,5 @@
 :HL["/_next/static/chunks/24814zk7-0hqq.css","style"]
-:HL["/_next/static/chunks/0v9nrtkp93l01.css","style"]
+:HL["/_next/static/chunks/1h6giu82cj0kj.css","style"]
 :HL["/_next/static/media/07a39a8a4660cc7c-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/13958cae6c93c43e-s.p.1h18_wedhzk4h.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/1cb49a9fe872cb43-s.p.2mm3nq9i83l-m.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -15,4 +15,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"research-assistant","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"projects","h":64,"c":"$Q2"}]]
-0:{"b":"yVVuOaWA5iTUBzLt21ohm","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"Kbr3WOo1wV7sFmXoeP7FI","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
