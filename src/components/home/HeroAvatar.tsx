@@ -6,7 +6,7 @@ import { Reveal } from "../common/Reveal";
 export function HeroAvatar() {
  return <div className="relative">
   <Reveal>
-   <div className="relative mx-auto my-5 h-42 w-full max-w-3xl overflow-hidden rounded-2xl shadow-xl sm:h-72 md:h-80">
+   <div className="relative mx-auto my-3 h-28 w-full max-w-3xl overflow-hidden rounded-2xl shadow-md sm:h-36 md:h-40">
     <Image fill src="/assets/sukuna.gif" alt="Animated anime cover" priority unoptimized sizes="(max-width: 768px) 100vw, 768px" className="object-cover" />
    </div>
   </Reveal>
