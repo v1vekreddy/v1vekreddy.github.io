@@ -6,7 +6,7 @@ import Link from "next/link";
 
 import { motion } from "motion/react";
 
-import { instrumentSerif } from "@/config/font";
+import { caveat, instrumentSerif } from "@/config/font";
 import { heroConfig } from "@/config/hero";
 
 import { Reveal } from "../common/Reveal";
@@ -34,7 +34,11 @@ export const HeroInfo = () => {
   return (
     <div className="mt-5 md:mt-8">
       <Reveal delay={0.3}>
-        <div className="flex items-center justify-center gap-3 md:justify-start">
+        <div className="relative flex items-center justify-center gap-3 md:justify-start">
+          <a href="mailto:vivekreddyiitg@gmail.com" className={`${caveat.className} hire-note absolute -left-28 -top-10 hidden -rotate-12 text-2xl text-neutral-500 transition-colors hover:text-foreground lg:block`}>
+            HIRE ME
+            <svg viewBox="0 0 100 90" fill="none" aria-hidden="true" className="ml-8 h-12 w-20 rotate-12"><path d="M10 8 Q16 48 85 57 M69 42 L86 58 L63 64" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+          </a>
           <h1
             className={`${instrumentSerif.className} text-3xl font-bold italic`}
           >
